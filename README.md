@@ -5,6 +5,9 @@ balance from Injective Testnet, and sends INJ to another address.
 
 Built for the **HackQuest India × Injective Co-Learning Camp #22**.
 
+**🔗 Live demo: [injective-token-sender.vercel.app](https://injective-token-sender.vercel.app)**
+— you will need the Keplr extension and some testnet INJ to try a transfer.
+
 There is no backend, no database and no authentication. The browser talks
 directly to a public Injective LCD node, and the Keplr extension does the
 signing — the app never sees a private key.
@@ -42,7 +45,7 @@ signing — the app never sees a private key.
 Requires Node.js 20+ and the [Keplr browser extension](https://keplr.app/download).
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/cyberph3onix/injective-token-sender.git
 cd injective-token-sender
 npm install
 cp .env.example .env.local   # optional — the defaults already point at testnet
